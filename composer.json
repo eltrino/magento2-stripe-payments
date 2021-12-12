@@ -1,0 +1,23 @@
+{
+  "name": "eltrino/magento2-stripe-payments",
+  "description": "Additional API interface for Stripe Payments Integrations",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "stripe/module-payments": "^2.0"
+  },
+  "authors": [{
+    "name": "Eltrino LLC",
+    "homepage": "http://eltrino.com",
+    "email": "info@eltrino.com"
+  }],
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Eltrino\\StripePayments\\": "src/"
+    }
+  }
+}
