@@ -25,6 +25,11 @@ class PaymentIntent
      */
     private $cache;
 
+    /**
+     * @var Config
+     */
+    private $config;
+
     public function __construct(
         LoggerInterface $logger,
         Generic $helper,
